@@ -1,0 +1,35 @@
+#App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 30px;
+}
+
+#App #main {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+#App main {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 992px) {
+  #App #main {
+    flex-direction: column;
+  }
+
+  #App main {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  #App aside {
+    width: 100%;
+  }
+
+  #App main {
+    width: 100%;
+  }
+}
